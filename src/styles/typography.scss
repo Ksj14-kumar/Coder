@@ -1,0 +1,46 @@
+.HomePage {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+}
+
+.hero-text {
+	text-align: center;
+	color: white;
+	font-size: 3.6rem;
+	span {
+		color: #037fff;
+	}
+}
+.h-sub-text {
+	text-align: center;
+}
+
+.icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1.5rem 0;
+	.icon-holder {
+		margin-right: 1rem;
+		// border: 1px solid red;
+
+		.icon {
+			font-size: 2.8rem;
+			// padding: 1rem;
+			color: #a4acc4;
+			transform: all 0.4s ease-in-out;
+		}
+		// .yt:hover {
+		// 	color: red;
+		// }
+		// .gh:hover {
+		// 	color: purple;
+		// }
+		// .fb:hover {
+		// 	color: blue;
+		// }
+	}
+}

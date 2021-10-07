@@ -1,0 +1,107 @@
+.ContactItem {
+  width: 100%;
+}
+
+.ContactItem:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.ContactItem .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #191d2b;
+  padding: 3rem 0;
+}
+
+.ContactItem .contact .right-items {
+  margin: 0 2rem;
+}
+
+.ContactItem .contact .right-items h6 {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.ContactItem .contact img {
+  padding: 1rem;
+  border: 1px solid #2e344e;
+  margin-left: 2rem;
+  width: 30%;
+}
+
+.ContactPage {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30rem 26rem;
+      grid-template-columns: 30rem 26rem;
+  margin-left: -7rem;
+}
+
+@media screen and (max-width: 800px) {
+  .ContactPage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 11rem;
+  }
+}
+
+.ContactPage .contact-sect {
+  width: 100%;
+}
+
+.map-sect {
+  width: 97%;
+  padding: 1rem;
+  background-color: #191d2b;
+}
+
+.map-sect iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .map-sect {
+    height: 80vh;
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 517px) {
+  .map-sect {
+    height: 70vh;
+    margin-left: 1rem;
+  }
+}
+
+.contact-sect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+  .contact-sect {
+    margin-top: 5rem;
+  }
+}
+
+.title {
+  margin-bottom: 4rem;
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,144 @@
+.ImageSection {
+	display: flex;
+	margin-top: 3rem;
+	margin-bottom: 4rem;
+	// height: 70vh;
+
+	.img {
+		width: 100%;
+		height: 50vh;
+		img {
+			width: 100%;
+			object-fit: cover;
+			height: 100%;
+		}
+	}
+	.about-info {
+		margin-top: -1rem;
+		margin-left: 2rem;
+		h4 {
+			font-size: 2rem;
+		}
+		.about-text {
+			padding: 1rem 0;
+		}
+	}
+
+	@media screen and(max-width:1400px) {
+		flex-direction: column;
+		.about-info {
+			margin-left: 0;
+			margin-top: 1rem;
+		}
+	}
+}
+.about-details {
+	display: flex;
+	margin-top: 1rem;
+	p {
+		padding: 0.3rem 0;
+	}
+
+	.right-section {
+		margin-left: 2.3rem;
+	}
+}
+
+.btn {
+	padding: 1rem 2rem;
+	background-color: #037fff;
+	outline: none;
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	letter-spacing: 2px;
+	margin-top: 1rem;
+	position: relative;
+	&::after {
+		content: "";
+		position: absolute;
+		width: 0;
+		height: 0.3rem;
+		left: 0;
+		bottom: 0;
+		background-color: #a4acc4;
+		transition: all 0.4s ease-in-out;
+	}
+	&:hover::after {
+		width: 100%;
+	}
+}
+
+.skils-content {
+	margin: 4rem 0;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 4rem;
+	row-gap: 3rem;
+	@media screen and(max-width:1100px) {
+		grid-template-columns: repeat(1, fr);
+		margin-top: 11rem;
+	}
+
+	@media screen and (max-width: 800px) {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.btn-port {
+	padding: 0.6rem 2rem;
+	background-color: #037fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: inherit;
+	font-family: inherit;
+	color: white;
+	margin-bottom: 1rem;
+	transition: all 0.3s ease-in-out;
+	border-radius: 5rem;
+	&:not(:last-child) {
+		margin-right: 1rem;
+	}
+	&:hover {
+		background-color: #037fff;
+		background-color: maroon;
+		// border: 1px solid red;
+	}
+	&:active {
+		transition: all 0.4s ease-in-out;
+		background-color: #037fff;
+	}
+	&:focus {
+		background-color: rgba(128, 0, 0, 0.898);
+		// background-color: #037fff;
+	}
+}
+.buttons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 4rem 10rem;
+	flex-wrap: wrap;
+	width: 141%;
+	margin-left: -8rem;
+	padding-top: 1rem;
+	@media screen and(max-width:1000px) {
+		display: flex;
+
+		// background-color: red;
+		flex-wrap: wrap;
+		margin-top: 11rem;
+		justify-content: space-evenly;
+	}
+	@media screen and(max-width:704px) {
+		margin-left: -4rem;
+	}
+}
+
+@media screen and(max-width:1400px) {
+}

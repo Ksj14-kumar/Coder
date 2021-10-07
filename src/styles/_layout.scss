@@ -1,0 +1,119 @@
+.App {
+	.sidebar {
+		width: 16%;
+		height: 100vh;
+		position: fixed;
+		z-index: 11;
+		background-color: #191d2b;
+		border-right: 1px solid #2e344e;
+
+		// START MEDIA QUERY FOR SIDEBAR
+		transform-origin: left;
+		@media screen and (max-width: 1000px) {
+			transform: translate(-100%);
+			transition: all 0.4s ease-in-out;
+			width: 30%;
+		}
+		@media screen and (max-width: 411px) {
+			width: 50%;
+		}
+	}
+
+	.nav-toggle {
+		@media screen and (max-width: 1000px) {
+			transform: translateX(0);
+			transition: all 0.4s ease-in-out;
+		}
+	}
+
+	.main-content {
+		width: 84%;
+		margin-left: 16%;
+		background-color: #10121b;
+		min-height: 100vh;
+		// background-image: url("../img/dots.svg");
+		display: grid;
+		position: relative;
+		.content {
+			margin: 5rem 15rem;
+			@media screen and (max-width: 1100px) {
+				margin: 6rem 10rem;
+			}
+		}
+
+		// START MEDIA QUERY of MAIN CONTENT
+		@media screen and (max-width: 1000px) {
+			margin-left: 0;
+			width: 100%;
+		}
+	}
+}
+
+.nav-btn {
+	// position: absolute;
+	// z-index: 10;
+	// right: 10%;
+	// top: 10%;
+	// background-color: red;
+	// width: 5rem;
+	// height: 5rem;
+	// // display: none;
+	// display: flex;
+	// align-items: center;
+	// cursor: pointer;
+	// justify-content: space-between;
+	// background-color: green;
+	// border: 2px solid red;
+	// background-color: red;
+
+	width: 4rem;
+	height: 2.2rem;
+	position: absolute;
+	z-index: 11;
+	top: 1%;
+	right: 0%;
+	padding: 0.1rem;
+	border-radius: 3px;
+	display: none;
+	// background-color: red;
+
+	.line1,
+	.line2,
+	.line3 {
+		// height: 0.4rem;
+		// width: 100%;
+		// background-color: #3858cc;
+		// pointer-events: none;
+		// // display: none;
+		// border-radius: 20px;
+		// &:not(:last-child) {
+		// 	margin-bottom: 0.5rem;
+		// }
+
+		width: 2.7rem;
+		height: 0.2rem;
+		background-color: #3858cc;
+		// border: 1px solid red;
+		border-radius: 16px;
+		z-index: 11;
+		position: relative;
+		margin: 3px;
+		padding: 2px;
+	}
+
+	@media screen and (max-width: 1000px) {
+		display: block;
+	}
+}
+
+.event {
+	.line1 {
+		transform: rotate(-45deg);
+	}
+	.line2 {
+		display: none;
+	}
+	.line3 {
+		transform: rotate(45deg);
+	}
+}
