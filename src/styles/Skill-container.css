@@ -1,0 +1,54 @@
+.inner-container {
+  background-color: white;
+  margin-top: 7rem;
+  -webkit-box-shadow: 0px 0px 3px 2px white;
+          box-shadow: 0px 0px 3px 2px white;
+}
+
+.inner-container .skill-name {
+  text-indent: 2rem;
+  color: #795548;
+}
+
+.inner-container hr {
+  color: gray;
+  border: none;
+  border-bottom: 0.5px solid;
+}
+
+.inner-container .different-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.inner-container .different-skills img {
+  width: 5rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+@media screen and (max-width: 400px) {
+  .inner-container .different-skills {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=Skill-container.css.map */

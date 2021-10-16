@@ -10,7 +10,9 @@ import ContactPage from './Pages/ContactPage';
 import BlogsPage from './Pages/BlogsPage';
 import PortFoliosPage from './Pages/PortFoliosPage';
 import Preloader from './Pages/Preloader';
-
+import Education from './Pages/Education';
+import Skill from './Pages/Skill'
+import Resume from './Pages/Resume';
 function App() {
     const [navToggle,setNavToggle]= useState(false);
     const navClick=()=>{
@@ -19,7 +21,6 @@ function App() {
 
     return (
         <>
-        {Preloader}
 
         <div className="App">
         <div className={`sidebar ${navToggle ? 'nav-toggle':""}`}>  
@@ -67,6 +68,21 @@ function App() {
 
                     <Route path="/blogs" exact>
                         <BlogsPage/>
+                    
+
+                    </Route>
+                    <Route path="/education" exact>
+                        <Education/>
+                    
+
+                    </Route>
+                    <Route path="/skill" exact>
+                        <Skill/>
+                    
+
+                    </Route>
+                    <Route path="/resume" exact>
+                        <Resume/>
                     
 
                     </Route>

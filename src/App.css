@@ -131,7 +131,7 @@
   margin-left: 2rem;
 }
 
-.ImageSection .about-info h4 {
+.ImageSection .about-info .head {
   font-size: 2rem;
 }
 
@@ -160,6 +160,10 @@
 }
 
 .about-details p {
+  padding: 0.3rem 0;
+}
+
+.about-details h4 {
   padding: 0.3rem 0;
 }
 
@@ -346,6 +350,15 @@
 
 .NavBar .nav .nav-items .nav-item p {
   color: #ecf0f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .NavBar .nav .nav-items .nav-item a {
@@ -497,11 +510,11 @@
           align-items: center;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress {
+.SkillSection .skills-container .skill-progress {
   width: 100%;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress {
+.SkillSection .skills-container .skill-progress .progress {
   width: 100%;
   height: 0.6rem;
   background-color: #dcdde1;
@@ -510,7 +523,7 @@
   border-radius: 5px;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress .inner-progress {
+.SkillSection .skills-container .skill-progress .progress .inner-progress {
   height: 100%;
   left: 0;
   bottom: 0;
@@ -519,59 +532,59 @@
   border-radius: 5px;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress #JavaScript {
+.SkillSection .skills-container .skill-progress .progress #JavaScript {
   background-color: #f7a11fd7;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress #Express {
+.SkillSection .skills-container .skill-progress .progress #Express {
   background-color: #009432;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress #Flask {
+.SkillSection .skills-container .skill-progress .progress #Flask {
   background-color: maroon;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress #Node {
+.SkillSection .skills-container .skill-progress .progress #Node {
   background-color: #44bd32;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress #React {
+.SkillSection .skills-container .skill-progress .progress #React {
   background-color: #0652dd;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress #Next {
+.SkillSection .skills-container .skill-progress .progress #Next {
   background-color: #2f3640;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress #Leaflet {
+.SkillSection .skills-container .skill-progress .progress #Leaflet {
   background-color: #c4e538;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress #Tailwind {
+.SkillSection .skills-container .skill-progress .progress #Tailwind {
   background-color: #079992;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress #Bootstrap {
+.SkillSection .skills-container .skill-progress .progress #Bootstrap {
   background-color: #1b1464;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress #Sass {
+.SkillSection .skills-container .skill-progress .progress #Sass {
   background-color: #b53471;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress #Html {
+.SkillSection .skills-container .skill-progress .progress #Html {
   background-color: #e55039;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress #Css {
+.SkillSection .skills-container .skill-progress .progress #Css {
   background-color: #00a8ff;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress #Python {
+.SkillSection .skills-container .skill-progress .progress #Python {
   background-color: #ea2027;
 }
 
-.SkillSection .skills-container .skill-bar .skill-progress .progress #jquery {
+.SkillSection .skills-container .skill-progress .progress #jquery {
   background-color: #718093;
 }
 
@@ -689,6 +702,8 @@
 }
 
 .ServicesSection .service {
+  -webkit-box-shadow: 0 0 3px 2px rgba(255, 255, 255, 0.303);
+          box-shadow: 0 0 3px 2px rgba(255, 255, 255, 0.303);
   width: 95%;
   background-color: #191d2b;
   border-left: 1px solid #2e344e;
@@ -701,6 +716,8 @@
 
 .ServicesSection .service:hover {
   border-top: 8px solid #037fff;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .ServicesSection .service-content {
@@ -936,6 +953,210 @@
 .portfolis .portfolio h5:hover {
   color: #037fff;
   cursor: pointer;
+}
+
+.inner-container {
+  background-color: white;
+  margin-top: 7rem;
+  -webkit-box-shadow: 0px 0px 3px 2px white;
+          box-shadow: 0px 0px 3px 2px white;
+}
+
+.inner-container .skill-name {
+  text-indent: 2rem;
+  color: #795548;
+}
+
+.inner-container hr {
+  color: gray;
+  border: none;
+  border-bottom: 0.5px solid;
+}
+
+.inner-container .different-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.inner-container .different-skills img {
+  width: 5rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+@media screen and (max-width: 400px) {
+  .inner-container .different-skills {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.circle1 {
+  background-color: red;
+  border: 1px solid red;
+}
+
+.circle2 {
+  background-color: green;
+  border: 1px solid green;
+}
+
+.circle3 {
+  background-color: maroon;
+  border: 1px solid maroon;
+}
+
+.circle4 {
+  background-color: mediumvioletred;
+  border: 1px solid mediumvioletred;
+}
+
+.circle5 {
+  background-color: #2c2c54;
+  border: 1px solid #2c2c54;
+}
+
+.circle6 {
+  background-color: #b33939;
+  border: 1px solid #b33939;
+}
+
+.circle {
+  margin: 0 0.5rem;
+}
+
+.HomeLink span {
+  color: #00b894;
+  margin-right: 1rem;
+  margin-top: 4px;
+}
+
+.AboutLink span {
+  color: yellow;
+  margin-right: 1rem;
+  margin-top: 6px;
+}
+
+.PortFolioLink .portIcon {
+  color: #b71540;
+  margin-right: -2rem;
+}
+
+.port {
+  margin-left: 48px;
+  color: white;
+}
+
+.BlogsLink span {
+  color: #eb2f06;
+  margin-right: 1.4rem;
+  margin-top: 6px;
+}
+
+.ContactLink span {
+  color: #8e44ad;
+  margin-right: 1rem;
+  margin-top: 6px;
+}
+
+.EducationLink span {
+  color: #f5f6fa;
+  margin-right: 1rem;
+  margin-top: 6px;
+}
+
+.Resume span {
+  color: springgreen;
+  margin-right: 1.4rem;
+  margin-top: 6px;
+}
+
+.SkillLink span {
+  color: red;
+  margin-right: 1.4rem;
+  margin-top: 6px;
+}
+
+.inner-info {
+  -webkit-box-shadow: 0px 0px 3px 2px white;
+          box-shadow: 0px 0px 3px 2px white;
+  width: 46rem;
+  background-color: white;
+  margin-top: 14rem;
+  padding-bottom: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-right: 0.5rem;
+}
+
+@media screen and (max-width: 650px) {
+  .inner-info {
+    font-size: 80%;
+    width: 100%;
+  }
+}
+
+.inner-info .card-header {
+  padding-top: 1.5rem;
+  background-color: white;
+  text-indent: 3rem;
+  width: 100%;
+}
+
+.inner-info .card-header .college-name {
+  text-decoration: none;
+  color: #009688;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .inner-info .card-header .college-name {
+    font-size: 10px;
+  }
+}
+
+.inner-info .card-header .college-name a {
+  text-decoration: none;
+  color: #009688;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.inner-info .card-header p {
+  color: #8f5548;
+}
+
+.inner-info .card-body {
+  background-color: white;
+  color: black;
+  list-style-position: inside;
+  text-indent: 4rem;
+  margin-top: 2rem;
 }
 
 * {

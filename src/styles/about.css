@@ -23,7 +23,7 @@
   margin-left: 2rem;
 }
 
-.ImageSection .about-info h4 {
+.ImageSection .about-info .head {
   font-size: 2rem;
 }
 
@@ -52,6 +52,10 @@
 }
 
 .about-details p {
+  padding: 0.3rem 0;
+}
+
+.about-details h4 {
   padding: 0.3rem 0;
 }
 

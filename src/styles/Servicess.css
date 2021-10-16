@@ -5,6 +5,8 @@
 }
 
 .ServicesSection .service {
+  -webkit-box-shadow: 0 0 3px 2px rgba(255, 255, 255, 0.303);
+          box-shadow: 0 0 3px 2px rgba(255, 255, 255, 0.303);
   width: 95%;
   background-color: #191d2b;
   border-left: 1px solid #2e344e;
@@ -17,6 +19,8 @@
 
 .ServicesSection .service:hover {
   border-top: 8px solid #037fff;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .ServicesSection .service-content {

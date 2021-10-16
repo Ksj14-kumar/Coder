@@ -4,9 +4,13 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faYoutube} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Link} from 'react-router-dom';
+import Header from '../Components/Header'
 function HomePage() {
     return (
+        <>
+
         <div className="HomePage">
+
             <header className="hero">
                 <h1 className="hero-text">
                     Hi, I am 
@@ -24,7 +28,7 @@ function HomePage() {
                 </h1>
 
                 <p className="h-sub-text">
-                I am Web Developer with 1+ year experience in designing
+                I am Full Stack Web Developer with some experience in designing
                         and developing user interfaces, testing, debuging.
 
 
@@ -66,6 +70,7 @@ function HomePage() {
         
             
         </div>
+        </>
     )
 }
 

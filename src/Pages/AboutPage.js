@@ -15,20 +15,20 @@ function AboutPage() {
             <ImageSection/>
             <Title title ={'My Skills'} span= {'My Skills'}/>
             <div className="skils-content">
-            <SkillSections skill={"JavaScript"} progress={"90%"} width={"90%"} id={"JavaScript"} jsIcon={FaJs}/>
-            <SkillSections skill={"Express js"} progress={"95%"} width={"95%"} id={"Express"}/>
-            <SkillSections skill={"Node js"} progress={"90%"} width={"90%"} id={"Node"}/>
-            <SkillSections skill={"React js"} progress={"75%"} width={"75%"} id={"React"}/>
-            <SkillSections skill={"Next js"} progress={"80%"} width={"80%"} id={"Next"} />
-            <SkillSections skill={"leaflet js"} progress={"60%"} width={"60%"} id={"Leaflet"}/>
-            <SkillSections skill={"JQuery"} progress={"92%"} width={"92%"} id={"jquery"}/>
-            <SkillSections skill={"Tailwind CSS"} progress={"75%"} width={"86%"} id={"Tailwind"}/>
-            <SkillSections skill={"Bootstrap"} progress={"90%"} width={"90%"} id={"Bootstrap"}/>
-            <SkillSections skill={"SASS"} progress={"96%"} width={"96%"} id={"Sass"}/>
-            <SkillSections skill={"HTML 5"} progress={"99%"} width={"99%"} id={"Html"}/>
-            <SkillSections skill={"CSS3"} progress={"98%"} width={"98%"} id={"Css"}/>
-            <SkillSections skill={"Python"} progress={"98%"} width={"98%"} id={"Python"}/>
-            <SkillSections skill={"Python Flask"} progress={"83%"} width={"83%"} id={"Flask"}/>
+            <SkillSections skill={"JavaScript"} className={"js"} progress={"90%"} width={"90%"} id={"JavaScript"} jsIcon={FaJs}/>
+            <SkillSections skill={"Express js"} className={"express"} progress={"95%"} width={"95%"} id={"Express"}/>
+            <SkillSections skill={"Node js"} className={"node"} progress={"90%"} width={"90%"} id={"Node"}/>
+            <SkillSections skill={"React js"} className={"react"} progress={"75%"} width={"75%"} id={"React"}/>
+            <SkillSections skill={"Next js"} className={"next"} progress={"80%"} width={"80%"} id={"Next"} />
+            <SkillSections skill={"leaflet js"} className={"leaflet"} progress={"60%"} width={"60%"} id={"Leaflet"}/>
+            <SkillSections skill={"JQuery"} className={"jquery"} progress={"92%"} width={"92%"} id={"jquery"}/>
+            <SkillSections skill={"Tailwind CSS"} className={"tailwind"} progress={"75%"} width={"86%"} id={"Tailwind"}/>
+            <SkillSections skill={"Bootstrap"} className={"bootstrap"} progress={"90%"} width={"90%"} id={"Bootstrap"}/>
+            <SkillSections skill={"SASS"} className={"sass"} progress={"96%"} width={"96%"} id={"Sass"}/>
+            <SkillSections skill={"HTML 5"} className={"html5"} progress={"99%"} width={"99%"} id={"Html"}/>
+            <SkillSections skill={"CSS3"} className={"css3"} progress={"98%"} width={"98%"} id={"Css"}/>
+            <SkillSections skill={"Python"} className={"python"} progress={"98%"} width={"98%"} id={"Python"}/>
+            <SkillSections skill={"Python Flask"} className={"flask"} progress={"83%"} width={"83%"} id={"Flask"}/>
 
 
             </div>

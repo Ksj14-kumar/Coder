@@ -16,7 +16,7 @@
 	.about-info {
 		margin-top: -1rem;
 		margin-left: 2rem;
-		h4 {
+		.head {
 			font-size: 2rem;
 		}
 		.about-text {
@@ -36,6 +36,9 @@
 	display: flex;
 	margin-top: 1rem;
 	p {
+		padding: 0.3rem 0;
+	}
+	h4 {
 		padding: 0.3rem 0;
 	}
 

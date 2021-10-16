@@ -1,6 +1,9 @@
 import React from 'react'
 import about from '../img/about.png'
 
+import {Button} from "@material-ui/core"
+import {ArrowDownwardOutlined} from "@material-ui/icons"
+
 function ImageSection() {
     return (
         <div className="ImageSection">
@@ -11,7 +14,7 @@ function ImageSection() {
             </div>
             <div className="about-info">
 
-                <h4>I am  <span>Web Developer</span></h4>
+                <h4 className="head">I am  <span>Web Developer</span></h4>
                 <p className="about-text">
 
                 Creative web developer dedicated to building and optimizing
@@ -25,12 +28,12 @@ function ImageSection() {
                     {/* HAM ESE COMPONENT KE ANDAR DAAL SAKTE HAI */}
                     
                     <div className="left-section">
-                        <p>Full Name</p>
-                        <p>Age</p>
-                        <p>Nationality</p>
-                        <p>Langauge</p>
-                        <p> Address</p>
-                        <p>Country</p>
+                        <h4>Full Name</h4>
+                        <h4>Age</h4>
+                        <h4>Nationality</h4>
+                        <h4>Langauge</h4>
+                        <h4> Address</h4>
+                        <h4>Country</h4>
 
                     </div>
                     <div className="right-section">
@@ -48,7 +51,8 @@ function ImageSection() {
 
                 </div>
 
-                <button className="btn">Download  CV</button>
+                <Button variant="contained" style={{marginTop:"3rem",color:"red",textTransform:"uppercase"}} color="success" size="large" className="materialButton" endIcon={<ArrowDownwardOutlined/>}>Download CV</Button>
+                {/* <button className="btn">Download  CV</button> */}
             </div>
           
             

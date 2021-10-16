@@ -1,0 +1,52 @@
+.HomeLink span {
+  color: #00b894;
+  margin-right: 1rem;
+  margin-top: 4px;
+}
+
+.AboutLink span {
+  color: yellow;
+  margin-right: 1rem;
+  margin-top: 6px;
+}
+
+.PortFolioLink .portIcon {
+  color: #b71540;
+  margin-right: -2rem;
+}
+
+.port {
+  margin-left: 48px;
+  color: white;
+}
+
+.BlogsLink span {
+  color: #eb2f06;
+  margin-right: 1.4rem;
+  margin-top: 6px;
+}
+
+.ContactLink span {
+  color: #8e44ad;
+  margin-right: 1rem;
+  margin-top: 6px;
+}
+
+.EducationLink span {
+  color: #f5f6fa;
+  margin-right: 1rem;
+  margin-top: 6px;
+}
+
+.Resume span {
+  color: springgreen;
+  margin-right: 1.4rem;
+  margin-top: 6px;
+}
+
+.SkillLink span {
+  color: red;
+  margin-right: 1.4rem;
+  margin-top: 6px;
+}
+/*# sourceMappingURL=SideBarLinksStyle.css.map */

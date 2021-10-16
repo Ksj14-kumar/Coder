@@ -3,8 +3,11 @@
 		margin-bottom: 2rem;
 	}
 	.service {
+		box-shadow: 0 0 3px 2px rgba(255, 255, 255, 0.303);
+
 		width: 95%;
 		background-color: #191d2b;
+		// background-color: white;
 		border-left: 1px solid #2e344e;
 		border-right: 1px solid #2e344e;
 		border-top: 8px solid #2e344e;
@@ -13,6 +16,7 @@
 
 		&:hover {
 			border-top: 8px solid #037fff;
+			transform: scale(1.2);
 		}
 	}
 	img {
