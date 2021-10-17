@@ -499,6 +499,63 @@
 .SkillSection .skills-container .skill-title {
   font-size: 1.4rem;
   font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.SkillSection .skills-container .js {
+  color: #f7a11fd7;
+}
+
+.SkillSection .skills-container .express {
+  color: #009432;
+}
+
+.SkillSection .skills-container .node {
+  color: #44bd32;
+}
+
+.SkillSection .skills-container .react {
+  color: #0652dd;
+}
+
+.SkillSection .skills-container .next {
+  color: #2f3640;
+}
+
+.SkillSection .skills-container .leaflet {
+  color: #c4e538;
+}
+
+.SkillSection .skills-container .jquery {
+  color: #718093;
+}
+
+.SkillSection .skills-container .tailwind {
+  color: #079992;
+}
+
+.SkillSection .skills-container .bootstrap {
+  color: #1b1464;
+}
+
+.SkillSection .skills-container .sass {
+  color: #b53471;
+}
+
+.SkillSection .skills-container .html5 {
+  color: #e55039;
+}
+
+.SkillSection .skills-container .css3 {
+  color: #00a8ff;
+}
+
+.SkillSection .skills-container .python {
+  color: #ea2027;
+}
+
+.SkillSection .skills-container .flask {
+  color: maroon;
 }
 
 .SkillSection .skills-container .skill-bar {
@@ -510,20 +567,26 @@
           align-items: center;
 }
 
-.SkillSection .skills-container .skill-progress {
+.SkillSection .skills-container .skill-bar .skill-progress {
   width: 100%;
+  margin-left: 2rem;
 }
 
-.SkillSection .skills-container .skill-progress .progress {
+.SkillSection .skills-container .skill-bar .skill-progress .progress {
   width: 100%;
   height: 0.6rem;
   background-color: #dcdde1;
-  margin-left: 1rem;
+  margin-left: -1rem;
   position: relative;
   border-radius: 5px;
+  -webkit-box-shadow: 0 0 0 9px white;
+          box-shadow: 0 0 0 9px white;
 }
 
-.SkillSection .skills-container .skill-progress .progress .inner-progress {
+.SkillSection .skills-container .skill-bar .skill-progress .progress .inner-progress {
+  background: #037fff;
+  background-color: #b53471;
+  background-color: red;
   height: 100%;
   left: 0;
   bottom: 0;
@@ -532,59 +595,60 @@
   border-radius: 5px;
 }
 
-.SkillSection .skills-container .skill-progress .progress #JavaScript {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #JavaScript {
   background-color: #f7a11fd7;
+  color: #f7a11fd7;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Express {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Express {
   background-color: #009432;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Flask {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Flask {
   background-color: maroon;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Node {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Node {
   background-color: #44bd32;
 }
 
-.SkillSection .skills-container .skill-progress .progress #React {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #React {
   background-color: #0652dd;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Next {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Next {
   background-color: #2f3640;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Leaflet {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Leaflet {
   background-color: #c4e538;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Tailwind {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Tailwind {
   background-color: #079992;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Bootstrap {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Bootstrap {
   background-color: #1b1464;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Sass {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Sass {
   background-color: #b53471;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Html {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Html {
   background-color: #e55039;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Css {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Css {
   background-color: #00a8ff;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Python {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Python {
   background-color: #ea2027;
 }
 
-.SkillSection .skills-container .skill-progress .progress #jquery {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #jquery {
   background-color: #718093;
 }
 
@@ -956,10 +1020,10 @@
 }
 
 .inner-container {
-  background-color: white;
+  background-color: #10121b;
   margin-top: 7rem;
-  -webkit-box-shadow: 0px 0px 3px 2px white;
-          box-shadow: 0px 0px 3px 2px white;
+  -webkit-box-shadow: -7px -7px 4px #191922, 7px 7px 3px #0b0c0f;
+          box-shadow: -7px -7px 4px #191922, 7px 7px 3px #0b0c0f;
 }
 
 .inner-container .skill-name {
@@ -1096,10 +1160,10 @@
 }
 
 .inner-info {
-  -webkit-box-shadow: 0px 0px 3px 2px white;
-          box-shadow: 0px 0px 3px 2px white;
+  -webkit-box-shadow: -7px -7px 4px #191922, 7px 7px 3px #0b0c0f;
+          box-shadow: -7px -7px 4px #191922, 7px 7px 3px #0b0c0f;
   width: 46rem;
-  background-color: white;
+  background-color: #10121b;
   margin-top: 14rem;
   padding-bottom: 5rem;
   display: -webkit-box;
@@ -1123,9 +1187,10 @@
 
 .inner-info .card-header {
   padding-top: 1.5rem;
-  background-color: white;
+  background-color: #10121b;
   text-indent: 3rem;
   width: 100%;
+  text-align: center;
 }
 
 .inner-info .card-header .college-name {
@@ -1152,11 +1217,112 @@
 }
 
 .inner-info .card-body {
-  background-color: white;
-  color: black;
+  background-color: #10121b;
+  color: white;
   list-style-position: inside;
   text-indent: 4rem;
   margin-top: 2rem;
+}
+
+.footer .last-footer {
+  padding: 1rem 0;
+  margin-top: 2px;
+}
+
+.footer .last-footer .footer-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .last-footer .footer-icon .facebook,
+.footer .last-footer .footer-icon .twitter,
+.footer .last-footer .footer-icon .instagram,
+.footer .last-footer .footer-icon .github {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.footer .last-footer .footer-icon .facebook {
+  color: #4267b2;
+}
+
+.footer .last-footer .footer-icon .facebook:hover {
+  background-color: #4267b2;
+  color: #003297;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.footer .last-footer .footer-icon .twitter {
+  color: #1da1f2;
+}
+
+.footer .last-footer .footer-icon .twitter:hover {
+  background-color: #1da1f2;
+  color: #024066;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.footer .last-footer .footer-icon .github {
+  color: #6cc644;
+}
+
+.footer .last-footer .footer-icon .github:hover {
+  background-color: #6cc644;
+  color: #133d01;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.footer .last-footer .footer-icon .instagram {
+  color: #fd1d1d;
+}
+
+.footer .last-footer .footer-icon .instagram:hover {
+  background-color: #fd1d1d;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  color: #660101;
+}
+
+.fb {
+  color: #4267b2;
+  border-radius: 50%;
+}
+
+.fb:hover {
+  background-color: #4267b2;
+  color: #003297;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.gh {
+  color: #6cc644;
+  border-radius: 50%;
+}
+
+.gh:hover {
+  background-color: #6cc644;
+  color: #570202;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.yt {
+  color: #fd1d1d;
+  border-radius: 50%;
+}
+
+.yt:hover {
+  background-color: #fd1d1d;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  color: #660101;
 }
 
 * {
@@ -1164,6 +1330,13 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+@media screen and (min-width: 1100px) {
+  * {
+    -webkit-box-shadow: -7px -7px 4px #191922, 7px 7px 3px #0b0c0f;
+            box-shadow: -7px -7px 4px #191922, 7px 7px 3px #0b0c0f;
+  }
 }
 
 body::-webkit-scrollbar {

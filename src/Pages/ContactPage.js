@@ -21,7 +21,7 @@ function ContactPage() {
             </div>
             <div className="contact-sect">
                 <Contactitem icon={phone} text1={"+91 9149077008"} text2={""} title={"Phone"}/>
-                <Contactitem icon={email} text1={"sanjucom14998@gmail.com"} text2={"jsondata74@gmail.com"} title={"Email"}/>
+                <Contactitem icon={email} text1={""} text2={"jsondata74@gmail.com"} title={"Email"}/>
                 <Contactitem icon ={location} text1={"Shyamon, Agra"} text2={"India"} title={"Address"}/>
             </div>
             

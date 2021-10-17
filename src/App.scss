@@ -14,11 +14,16 @@
 @import "./styles//Header.scss";
 @import "./styles//SideBarLinksStyle.scss";
 @import "./styles//Education.scss";
+@import "./styles//footer.scss";
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	@media screen and(min-width:1100px) {
+		box-shadow: -7px -7px 4px #191922,
+			7px 7px 3px #0b0c0f;
+	}
 }
 
 body::-webkit-scrollbar {

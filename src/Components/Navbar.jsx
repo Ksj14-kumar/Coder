@@ -8,6 +8,7 @@ import {Home,ContactMail,Person} from "@material-ui/icons"
 import {FaProjectDiagram,FaPen} from 'react-icons/fa'
 import {MdSchool,MdSort} from "react-icons/md"
 import {FaFile,FaFileAlt,FaFileDownload} from "react-icons/fa"
+import Footer from '../Pages/Footer';
 
 
 var date = new Date().getFullYear();
@@ -63,7 +64,7 @@ function Navbar() {
                     </li>
 
 
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <NavLink to="/portfolios" exact activeClassName="active">
                             <p className="PortFolioLink">
                                 <span className="portIcon">
@@ -78,10 +79,10 @@ function Navbar() {
                             </p>
                         </NavLink>
 
-                    </li>
+                    </li> */}
 
 
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <NavLink to="/Blogs" exact activeClassName="active">
                             <p className="BlogsLink">
                                 <span>
@@ -92,19 +93,9 @@ function Navbar() {
                             </p>
                         </NavLink>
 
-                    </li>
+                    </li> */}
 
-                    <li className="nav-item">
-                        <NavLink to="/contact" exact activeClassName="active">
-                            <p className="ContactLink">
-                                <span>
-                                    <ContactMail/>
-                                </span>
-                                Contact
-                            </p>
-                        </NavLink>
-
-                    </li>
+                   
 
                     <li className="nav-item">
                         <NavLink to="/education" exact activeClassName="active">
@@ -131,12 +122,23 @@ function Navbar() {
 
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/resume" exact activeClassName="active" download>
+                        <NavLink to="../Files/SANJU's Resume.pdf" target="_blank" exact activeClassName="active" download>
                             <p className="Resume">
                                 <span>
                                     <FaFileDownload/>
                                 </span>
                             Resume
+                            </p>
+                        </NavLink>
+
+                    </li>
+                    <li className="nav-item">
+                        <NavLink to="/contact" exact activeClassName="active">
+                            <p className="ContactLink">
+                                <span>
+                                    <ContactMail/>
+                                </span>
+                                Contact
                             </p>
                         </NavLink>
 
@@ -155,8 +157,10 @@ function Navbar() {
 
                 <footer className="footer">
                     <p>
-                        @{date}
+                        &copy; {date} All Right  Reserved
+                    <Footer/>
                     </p>
+
                 </footer>
             </nav>
 

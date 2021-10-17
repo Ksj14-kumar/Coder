@@ -1,8 +1,8 @@
 .inner-info {
-  -webkit-box-shadow: 0px 0px 3px 2px white;
-          box-shadow: 0px 0px 3px 2px white;
+  -webkit-box-shadow: -7px -7px 4px #191922, 7px 7px 3px #0b0c0f;
+          box-shadow: -7px -7px 4px #191922, 7px 7px 3px #0b0c0f;
   width: 46rem;
-  background-color: white;
+  background-color: #10121b;
   margin-top: 14rem;
   padding-bottom: 5rem;
   display: -webkit-box;
@@ -26,9 +26,10 @@
 
 .inner-info .card-header {
   padding-top: 1.5rem;
-  background-color: white;
+  background-color: #10121b;
   text-indent: 3rem;
   width: 100%;
+  text-align: center;
 }
 
 .inner-info .card-header .college-name {
@@ -55,8 +56,8 @@
 }
 
 .inner-info .card-body {
-  background-color: white;
-  color: black;
+  background-color: #10121b;
+  color: white;
   list-style-position: inside;
   text-indent: 4rem;
   margin-top: 2rem;

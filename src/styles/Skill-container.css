@@ -1,8 +1,8 @@
 .inner-container {
-  background-color: white;
+  background-color: #10121b;
   margin-top: 7rem;
-  -webkit-box-shadow: 0px 0px 3px 2px white;
-          box-shadow: 0px 0px 3px 2px white;
+  -webkit-box-shadow: -7px -7px 4px #191922, 7px 7px 3px #0b0c0f;
+          box-shadow: -7px -7px 4px #191922, 7px 7px 3px #0b0c0f;
 }
 
 .inner-container .skill-name {

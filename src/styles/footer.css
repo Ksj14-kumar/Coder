@@ -1,0 +1,101 @@
+.footer .last-footer {
+  padding: 1rem 0;
+  margin-top: 2px;
+}
+
+.footer .last-footer .footer-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer .last-footer .footer-icon .facebook,
+.footer .last-footer .footer-icon .twitter,
+.footer .last-footer .footer-icon .instagram,
+.footer .last-footer .footer-icon .github {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.footer .last-footer .footer-icon .facebook {
+  color: #4267b2;
+}
+
+.footer .last-footer .footer-icon .facebook:hover {
+  background-color: #4267b2;
+  color: #003297;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.footer .last-footer .footer-icon .twitter {
+  color: #1da1f2;
+}
+
+.footer .last-footer .footer-icon .twitter:hover {
+  background-color: #1da1f2;
+  color: #024066;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.footer .last-footer .footer-icon .github {
+  color: #6cc644;
+}
+
+.footer .last-footer .footer-icon .github:hover {
+  background-color: #6cc644;
+  color: #133d01;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.footer .last-footer .footer-icon .instagram {
+  color: #fd1d1d;
+}
+
+.footer .last-footer .footer-icon .instagram:hover {
+  background-color: #fd1d1d;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  color: #660101;
+}
+
+.fb {
+  color: #4267b2;
+  border-radius: 50%;
+}
+
+.fb:hover {
+  background-color: #4267b2;
+  color: #003297;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.gh {
+  color: #6cc644;
+  border-radius: 50%;
+}
+
+.gh:hover {
+  background-color: #6cc644;
+  color: #570202;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.yt {
+  color: #fd1d1d;
+  border-radius: 50%;
+}
+
+.yt:hover {
+  background-color: #fd1d1d;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  color: #660101;
+}
+/*# sourceMappingURL=footer.css.map */

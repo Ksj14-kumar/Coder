@@ -5,6 +5,7 @@ import {faYoutube} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Link} from 'react-router-dom';
 import Header from '../Components/Header'
+import Footer from './Footer';
 function HomePage() {
     return (
         <>
@@ -67,7 +68,7 @@ function HomePage() {
 
 
             </header>
-        
+          
             
         </div>
         </>

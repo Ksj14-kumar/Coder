@@ -6,7 +6,7 @@ function SkillSections(props) {
     return (
         <div className="SkillSection">
           <div className="skills-container">
-                    <h5 className="skill-title">{props.skill} {props.jsIcon}</h5>
+                    <h5 className={props.className}>{props.skill} {props.jsIcon}</h5>
                     <div className="skill-bar">
                         <p className="skill-text">{props.progress} </p> 
                              <div className="skill-progress">
@@ -18,6 +18,7 @@ function SkillSections(props) {
                         {/* CIRCLE PROGRESS BAR START */}
                                 {/* <CircularProgress/>s */}
 
+
                            
                                
 
@@ -28,7 +29,7 @@ function SkillSections(props) {
 
                     </div>
               
-        </div>  
+            </div>  
         </div>
     )
 }

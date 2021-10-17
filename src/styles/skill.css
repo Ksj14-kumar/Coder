@@ -1,6 +1,63 @@
 .SkillSection .skills-container .skill-title {
   font-size: 1.4rem;
   font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.SkillSection .skills-container .js {
+  color: #f7a11fd7;
+}
+
+.SkillSection .skills-container .express {
+  color: #009432;
+}
+
+.SkillSection .skills-container .node {
+  color: #44bd32;
+}
+
+.SkillSection .skills-container .react {
+  color: #0652dd;
+}
+
+.SkillSection .skills-container .next {
+  color: #2f3640;
+}
+
+.SkillSection .skills-container .leaflet {
+  color: #c4e538;
+}
+
+.SkillSection .skills-container .jquery {
+  color: #718093;
+}
+
+.SkillSection .skills-container .tailwind {
+  color: #079992;
+}
+
+.SkillSection .skills-container .bootstrap {
+  color: #1b1464;
+}
+
+.SkillSection .skills-container .sass {
+  color: #b53471;
+}
+
+.SkillSection .skills-container .html5 {
+  color: #e55039;
+}
+
+.SkillSection .skills-container .css3 {
+  color: #00a8ff;
+}
+
+.SkillSection .skills-container .python {
+  color: #ea2027;
+}
+
+.SkillSection .skills-container .flask {
+  color: maroon;
 }
 
 .SkillSection .skills-container .skill-bar {
@@ -12,20 +69,26 @@
           align-items: center;
 }
 
-.SkillSection .skills-container .skill-progress {
+.SkillSection .skills-container .skill-bar .skill-progress {
   width: 100%;
+  margin-left: 2rem;
 }
 
-.SkillSection .skills-container .skill-progress .progress {
+.SkillSection .skills-container .skill-bar .skill-progress .progress {
   width: 100%;
   height: 0.6rem;
   background-color: #dcdde1;
-  margin-left: 1rem;
+  margin-left: -1rem;
   position: relative;
   border-radius: 5px;
+  -webkit-box-shadow: 0 0 0 9px white;
+          box-shadow: 0 0 0 9px white;
 }
 
-.SkillSection .skills-container .skill-progress .progress .inner-progress {
+.SkillSection .skills-container .skill-bar .skill-progress .progress .inner-progress {
+  background: #037fff;
+  background-color: #b53471;
+  background-color: red;
   height: 100%;
   left: 0;
   bottom: 0;
@@ -34,59 +97,60 @@
   border-radius: 5px;
 }
 
-.SkillSection .skills-container .skill-progress .progress #JavaScript {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #JavaScript {
   background-color: #f7a11fd7;
+  color: #f7a11fd7;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Express {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Express {
   background-color: #009432;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Flask {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Flask {
   background-color: maroon;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Node {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Node {
   background-color: #44bd32;
 }
 
-.SkillSection .skills-container .skill-progress .progress #React {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #React {
   background-color: #0652dd;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Next {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Next {
   background-color: #2f3640;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Leaflet {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Leaflet {
   background-color: #c4e538;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Tailwind {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Tailwind {
   background-color: #079992;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Bootstrap {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Bootstrap {
   background-color: #1b1464;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Sass {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Sass {
   background-color: #b53471;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Html {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Html {
   background-color: #e55039;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Css {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Css {
   background-color: #00a8ff;
 }
 
-.SkillSection .skills-container .skill-progress .progress #Python {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #Python {
   background-color: #ea2027;
 }
 
-.SkillSection .skills-container .skill-progress .progress #jquery {
+.SkillSection .skills-container .skill-bar .skill-progress .progress #jquery {
   background-color: #718093;
 }
 /*# sourceMappingURL=skill.css.map */
