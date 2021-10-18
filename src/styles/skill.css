@@ -1,7 +1,19 @@
+@media screen and (max-width: 400px) {
+  .SkillSection .skills-container {
+    margin-top: 1rem;
+  }
+}
+
 .SkillSection .skills-container .skill-title {
   font-size: 1.4rem;
   font-weight: 400;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 400px) {
+  .SkillSection .skills-container .skill-title {
+    margin-top: 1rem;
+  }
 }
 
 .SkillSection .skills-container .js {

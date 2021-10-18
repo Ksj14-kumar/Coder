@@ -3,13 +3,18 @@
 	// box-shadow: -7px -7px 4px #191922, 7px 7px 3px #0b0c0f;
 
 	.skills-container {
+		@media screen and(max-width:400px) {
+			margin-top: 1rem;
+		}
 		// box-shadow: -7px -7px 4px #191922, 7px 7px 3px #0b0c0f;
 		.skill-title {
 			font-size: 1.4rem;
 			font-weight: 400;
 			margin-bottom: 2rem;
+			@media screen and (max-width: 400px) {
+				margin-top: 1rem;
+			}
 		}
-
 		.js {
 			color: #f7a11fd7;
 		}
