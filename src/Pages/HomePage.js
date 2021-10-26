@@ -6,7 +6,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Link} from 'react-router-dom';
 import Header from '../Components/Header'
 import Footer from './Footer';
+
+
 function HomePage() {
+    
     return (
         <>
 
@@ -46,7 +49,7 @@ function HomePage() {
                     <FontAwesomeIcon icon={faFacebook} className="icon fb" />
                         </Link>
 
-                        <Link className="icon-holder">
+                        <Link className="icon-holder" >
                     <FontAwesomeIcon icon={faGithub} className="icon gh" />
                         </Link>
 
